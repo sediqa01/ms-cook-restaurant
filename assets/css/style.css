@@ -8,8 +8,19 @@
 
 body {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 300;
+    font-weight: 500;
+    background-color: #e6e2e1;
 
+
+}
+
+/* html {
+    box-sizing: border-box;
+} */
+
+h1,
+h2 {
+    font-family: 'Merienda One', cursive;
 }
 
 /* Navigation bar */
@@ -70,7 +81,6 @@ nav a:hover {
 }
 
 #banner h1 {
-    font-family: 'Merienda One', cursive;
     color: #fff;
     font-size: 3rem;
     text-align: center;
@@ -80,4 +90,69 @@ nav a:hover {
 
 .text-center {
     text-align: center;
+}
+
+/* About section */
+#about {
+    text-align: center;
+    padding: 45px 180px;
+    margin: 20px 70px;
+    border: 5px solid #b15723;
+    border-radius: 30px;
+    line-height: 23px;
+    display: block;
+
+}
+
+#about h2 {
+    margin-bottom: 23px;
+}
+
+#about p {
+    text-align: justify;
+}
+
+#chef {
+    height: 380px;
+    /* padding: 20 100px; */
+    padding: 20px;
+    margin: 20px 70px;
+    border: 5px solid #b15723;
+    border-radius: 30px;
+    display: block;
+
+}
+
+#bio {
+    width: 50%;
+    text-align: center;
+    float: left;
+    padding: 30px 20px;
+    margin: 30px 30px 55px 40px;
+    line-height: 24px;
+    /* border: 1px solid #000; */
+}
+
+#bio h2 {
+    margin-bottom: 23px;
+    padding-top: 20px;
+}
+
+#bio p {
+    text-align: justify;
+    padding: 15px 20px;
+}
+
+#img-container {
+    width: 300px;
+    height: 300px;
+    margin: 50px 80px 15px;
+    float: right;
+}
+
+#img {
+
+    background: url('../images/Lynn-Crawford.jpg') no-repeat center center;
+    height: 100%;
+
 }
