@@ -14,9 +14,9 @@ body {
 
 }
 
-/* html {
-    box-sizing: border-box;
-} */
+hr{
+    border: 1px solid #3a3a3a;
+}
 
 h1,
 h2 {
