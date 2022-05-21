@@ -14,12 +14,14 @@ body {
 
 }
 
-hr{
-    border: 1px solid #3a3a3a;
+hr {
+    border: 1px solid #8f8e8e;
+    margin: 20px;
 }
 
 h1,
-h2 {
+h2,
+h3 {
     font-family: 'Merienda One', cursive;
 }
 
@@ -155,4 +157,62 @@ nav a:hover {
     background: url('../images/Lynn-Crawford.jpg') no-repeat center center;
     height: 100%;
 
+}
+
+/* Contact Info */
+#contact {
+    height: 250px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.upper {
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+#hours {
+    padding-top: 33px;
+    float: left;
+    width: 30%;
+}
+
+#hours h3 {
+    padding: 2px 40px;
+
+}
+
+#hours p {
+    padding: 0px 30px;
+}
+
+#contact-info {
+    padding-top: 33px;
+    float: right;
+    width: 30%;
+
+}
+
+#contact-info h3 {
+    padding: 2px 40px;
+}
+
+#contact-info p {
+    padding: 0px 30px;
+}
+
+#address {
+    padding-top: 33px;
+    width: 30%;
+    margin: 0 auto;
+}
+
+#address h3 {
+    padding: 2px 40px;
+}
+
+#address p {
+    padding: 0px 30px;
 }
