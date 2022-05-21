@@ -216,3 +216,16 @@ nav a:hover {
 #address p {
     padding: 0px 30px;
 }
+
+/* Map section */
+#map-wrapper {
+
+    height: 300px;
+    margin-bottom: 100px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
