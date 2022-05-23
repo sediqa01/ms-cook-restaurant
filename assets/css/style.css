@@ -26,6 +26,11 @@ h3 {
 }
 
 /* Navigation bar */
+nav{
+    position:fixed;
+    z-index:1;
+    width: 100%;
+}
 nav ul {
     background-color: #080707;
     padding: 0;
