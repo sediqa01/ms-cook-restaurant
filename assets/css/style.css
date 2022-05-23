@@ -230,28 +230,31 @@ nav a:hover {
 }
 
 /* footer */
- footer {
+footer {
     height: 60px;
-} 
-footer h3{
-    text-align:center;
+}
+
+footer h3 {
+    text-align: center;
 }
 
 .social-links {
-    display:flex;
+    display: flex;
     justify-content: center;
     margin: 20px auto;
 }
-.social-links ul li{
-    display:inline-block;
-    width:100px;
+
+.social-links ul li {
+    display: inline-block;
+    width: 100px;
     height: 100px;
     margin: auto 20px;
-    text-align:center;
+    text-align: center;
     line-height: 100px;
-    font-size:120%;
-    
+    font-size: 120%;
+
 }
-.social-links i{
-    color:#000000;
+
+.social-links i {
+    color: #000000;
 }
