@@ -26,11 +26,12 @@ h3 {
 }
 
 /* Navigation bar */
-nav{
-    position:fixed;
-    z-index:1;
+nav {
+    position: fixed;
+    z-index: 1;
     width: 100%;
 }
+
 nav ul {
     background-color: #080707;
     padding: 0;
@@ -106,7 +107,7 @@ nav a:hover {
     margin: 20px 70px;
     border: 5px solid #b15723;
     border-radius: 30px;
-    line-height: 23px;
+    line-height: 30px;
     display: block;
 
 }
@@ -135,7 +136,7 @@ nav a:hover {
     float: left;
     padding: 30px 20px;
     margin: 30px 30px 55px 40px;
-    line-height: 24px;
+    line-height: 30px;
 
 }
 
@@ -265,21 +266,25 @@ footer h3 {
 .social-links i {
     color: #000000;
 }
+
 /* Menu */
-.menu-list{
-    margin:30px;
+.menu-list {
+    margin: 30px;
     display: flex;
     flex-direction: row-reverse;
 }
-.menu-list h2{
+
+.menu-list h2 {
     text-align: center;
     padding-right: 180px;
     margin-bottom: 23px;
 }
-.menu-list li{
+
+.menu-list li {
     font-weight: bold;
 }
-.menu-item h1{
+
+.menu-item h1 {
     padding-top: 110px;
     text-align: center;
     font-size: 2rem;
@@ -292,94 +297,136 @@ footer h3 {
     padding: 90px 20px 30px;
     margin: 30px 10px;
 }
-#breaky-menu ul{
+
+#breaky-menu ul {
     display: flex;
     flex-direction: column;
 }
-#breaky-menu li{
+
+#breaky-menu li {
     font-size: 17px;
-    list-style-type:circle;
-    
+    list-style-type: circle;
+
 }
-#container{
-     width: 40%;
-     height: 450px;
-     margin-top: 35px;
-     padding: 80px 60px 20px 40px;
- }
- #img-breaky{
-     height: 100%;
-     background: url('../images/pexels-christopher-alonzo-588776.jpg');
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
- 
- }
- /* luch menu */
- #lunch-menu {
+
+#container {
+    width: 40%;
+    height: 450px;
+    margin-top: 35px;
+    padding: 80px 60px 20px 40px;
+}
+
+#img-breaky {
+    height: 100%;
+    background: url('../images/pexels-christopher-alonzo-588776.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* luch menu */
+#lunch-menu {
     width: 40%;
     line-height: 20px;
     padding: 90px 20px 30px;
     margin: 30px 10px;
 
 }
-#lunch-menu ul{
+
+#lunch-menu ul {
     padding: 10px 10px;
     margin: 20px;
     display: flex;
     flex-direction: column;
-    
+
 }
-#lunch-menu li{
+
+#lunch-menu li {
     font-size: 17px;
-    list-style-type:circle;
-   
-}
-#container-l{
-     width: 40%;
-     height: 450px;
-     margin-top: 35px;
-     padding: 80px 60px 20px 40px;
-}
- #img-lunch{
-     height: 100%;
-     background: url('../images/pexels-cottonbro-3298180.jpg');
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
- 
- }
- /* Dinner menu */
- #dinner-menu {
-    width: 40%;
-    line-height: 20px;
-    padding: 90px 20px 30px;
-    margin: 30px 10px; 
+    list-style-type: circle;
 
 }
 
-#dinner-menu ul{
-    padding: 10px 10px;
-    margin: 20px;
-    flex-direction: column;
-}
-#dinner-menu li{
-    font-size: 17px;
-    list-style-type:circle;
-}
-
-
-#container-d{
+#container-l {
     width: 40%;
     height: 450px;
     margin-top: 35px;
     padding: 80px 60px 20px 40px;
- }
- #img-dinner{
-     height: 100%;
-     background: url('../images/pexels-jonathan-borba-3009323.jpg');
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
- 
- }
+}
+
+#img-lunch {
+    height: 100%;
+    background: url('../images/pexels-cottonbro-3298180.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* Dinner menu */
+#dinner-menu {
+    width: 40%;
+    line-height: 20px;
+    padding: 90px 20px 30px;
+    margin: 30px 10px;
+
+}
+
+#dinner-menu ul {
+    padding: 10px 10px;
+    margin: 20px;
+    flex-direction: column;
+}
+
+#dinner-menu li {
+    font-size: 17px;
+    list-style-type: circle;
+}
+
+
+#container-d {
+    width: 40%;
+    height: 450px;
+    margin-top: 35px;
+    padding: 80px 60px 20px 40px;
+}
+
+#img-dinner {
+    height: 100%;
+    background: url('../images/pexels-jonathan-borba-3009323.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 768px) {
+
+  ul {
+     height: 85px;
+     overflow: hidden;
+    }
+    ul a {
+         width: 66px;
+    }
+@media screen and (max-width:768px) {
+    ul a {
+    font-size:10px;
+    }
+    }
+}
+@media screen and (max-width:700px) {
+    #banner {
+        height: 60vh;
+        
+    }
+    #banner h1 {
+        padding-top: 180px;
+        font-size: 1rem;
+        justify-content: center;
+    
+    }
+    
+    }
