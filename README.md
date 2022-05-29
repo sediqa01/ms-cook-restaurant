@@ -1,108 +1,187 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Ms.Cook Restaurant
 
-Welcome Sediqa ,
+<p>Ms.Cook Restaurant is a site that hopes to help people to find more information about Ms.Cook restaurant services.
+The site will be targeted toward all people who are at Toronto and looking for a way to socialise and enjoiy from their letuier times with their friends, families and colleques. Ms.Cook resuraunt will be a useful way to customer to preview the restuarant servies and facilities in advance.</p>
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+image of responsive goes here
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+<br>
 
-## Gitpod Reminders
+ # Features
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+<h2>Existing Features</h2>
 
-`python3 -m http.server`
+ <ul>
+    <h3>Navigation Bar</h3>
 
-A blue button should appear to click: _Make Public_,
+   <li> Featured on all two pages, the full responsive navigation bar includes links to the  Home page, Menu page and Contact section and is identical in each page to allow for easy navigation.
+   </li>
 
-Another blue button should appear to click: _Open Browser_.
+   <li> This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.</li>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+ </ul>
 
-A blue button should appear to click: _Make Public_,
+img here from nav 
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+<br>
 
-To log into the Heroku toolbelt CLI:
+  <h3>The landing page image</h3>
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+<ul>
+    <li> The landing includes a photograph with text overlay to Welocome users on the page.</li>
+    <li> This section introduces the  Ms.Cook Restaurant to user and grab their attention with an eye catching photo and grab their attention</li>
+</ul>
+img here from hero img
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+<br>
 
-## Release History
+  <h3>About Ms.Cook</h3>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+<ul>
+    <li> The About section gives the user More information about Restaurant, founder, location and all cultural foods from other countries</li>
+    <li> This section will help the Users to gain information about Restaurant </li>
+       
+</ul>
+img
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<br> 
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  <h3>About The Chef of Restaurant</h3>
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<ul>
+    <li> This section introduces the chef of restuarant to the user </li>
+    <li> This section promote the restuarant reputation by presenting the chef of restuarat's fame and capability.</li>
+</ul>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+<br>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+   <h3>Contact Information</h3>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+<ul>
+   <li> 
+   <b>Open Hours</b> : This section helps users to scheduale their time and Breakfast ,Lunch and Dinner menue.
+   </li>
+</ul>
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<ul>
+   <li> 
+   <b>Address</b> : This Will help user to find the exact address of restaurant with Map direction 
+   </li>
+</ul>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<ul>
+    <li>
+    <b>Contuct Number & Email</b> : Will encourages user to be connected through phone number or via Email.This section help user to contact the restuarant and order foods or reserve table.
+    </li>
+</ul>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+<br>
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+<h3>The Footer </h3>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+<ul>
+   <li> The footer section includes links to the relevant social media sites for Ms.Cook Restaurant.
+    The links will open to a new tab to allow easy navigation for the user.</li>
+    <li>The footer is valuable to the user as it encourages them to keep connected via social media.
+    </li>
+ </ul>
 
-------
 
-## FAQ about the uptime script
+<br>
 
-**Why have you added this script?**
+ <h3>Menu page </h3>
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+<ul>
+   <li>The footer section includes Menus for Breakfast , Lunch and Dinner . </li>
 
-**How will this affect me?**
+   <li>The Menu page helps users to know which foods are included as well as their prices.</li>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+   <li>Beside each menu there are eye-catching photos attached for user enjoyment. </li>
+</ul>
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+img 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+<br>
 
-**So….?**
+# Features Left to Implement
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
+<ul> 
+    <li>Ordering Foods Online</li>
+    <li>Reservations Table Online</li>
+ </ul>
 
-**Can I opt out?**
+<br>
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
+# Testing
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
+Testing Screenshots
 
-**Anything more?**
+Responsive Screnshots
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
+You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
 
----
+If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
-Happy coding!
+
+<br>
+
+# Validator Testing
+
+
+<ul>
+   <b>HTML</b>
+        <li>No errors were returned when passing through the official W3C validator </li>
+   <b>CSS</b>
+       <li> No errors were found when passing through the official (Jigsaw) validator </li>
+</ul>
+
+<br>
+
+# Unfixed Bugs
+
+You will need to mention unfixed bugs and why they were not fixed. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed.
+
+<br>
+
+# Deployment
+
+<ul>
+    The site was deployed to GitHub pages. The steps to deploy are as follows:
+        <li>In the GitHub repository, navigate to the Settings tab</li>
+        <li>From the source section drop-down menu, select the Master Branch</li>
+        <li>Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.</li>
+</ul>
+
+ The live link can be found here - Link to live preview
+
+
+<br>
+
+ # Cridet
+     The credits section breack up into : Content and Media .
+
+
+<br>
+
+ ## Content
+   
+<ul>
+<li>The text for the Chef Information was taken from Wikipedia Article </li>
+<li> The text for the Breakfast Menu was taken from [Spoon Fork Bacon](https://www.spoonforkbacon.com) </li>
+<li> The text for the Lunch Menu was taken from [Insanely Good Recipes](https://insanelygoodrecipes.com) </li>  
+<li> The text for the Dinner Menu was taken from [The Modern Proper](https://themodernproper.com) </li>
+<li> The icons in the footer were taken from Font Awesome</li>
+</ul>
+
+<br>
+
+## Media
+<ul>
+   <li> The photos used on the home (Hero Image) and Menu page are from Pexiel site. </li>
+   <li> The images used for the Chef of Restaurant were taken from this [site](https://images.app.goo.gl/eJPuNcvyDYJ5BuBXA) </li>
+</ul>
