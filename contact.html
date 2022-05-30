@@ -1,4 +1,3 @@
-`
 <!DOCTYPE html>
 <html lang="en">
 
@@ -35,13 +34,13 @@
     </header>
 
      <div class="container">
-        <form action="action_page.php" >
+        <form action="404.html" >
       
           <label for="fname">First Name</label>
-          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
       
           <label for="lname">Last Name</label>
-          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
       
           <label for="country">Country</label>
           <select id="country" name="country">
@@ -59,7 +58,74 @@
       
         </form>
       </div> 
+      <hr>
 
+    <section id="contact">
+        <div id="hours">
+            <h3 class="upper">Hours <i class="fa-solid fa-clock"></i></h3>
+            <p>
+                <span class="bold">Breakfast: </span> Monday – Sunday
+                7am-10:30am
+                <br>
+                <span class="bold"> Lunch: </span> Saturday & Sunday
+                11:30am-2:30pm
+                <br>
+                <span class="bold">Dinner: </span> Monday – Sunday
+                5pm-10pm
+            </p>
+        </div>
+        <div id="contact-info">
+            <h3 class="upper">Contact Us <i class="fa-solid fa-phone"></i></h3>
+            <p>
+                <span class="bold">Phone: </span> +1(647)0101010
+                <br>
+                <span class="bold">Email: </span> ms.cook@gmail.com
+                <br>
+                <span class="bold">Email: </span> ms.cook@outlook.com
+            </p>
+        </div>
+
+        <div id="address">
+            <h3 class="upper">Address <i class="fa-solid fa-location-dot"></i></h3>
+            <p>290 Bremner Blvd, <br>
+                Toronto,
+                ON M5V 3L9, Canada</p>
+
+        </div>
+    </section>
+    <section id="map-wrapper">
+        <iframe id="map" src="https://goo.gl/maps/YiSPYzQH6VtUaWBn8" width="100%" height="300"></iframe>
+    </section>
+    <hr>
+    <footer>
+        <h3>Find Us on </h3>
+        <ul class="social-links">
+            <li>
+                <a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page,(Open in new tab)"><i
+                        class="fa-brands fa-facebook-square"></i></a>
+            </li>
+            <li>
+                <a href="https://twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter  page,(Open in new tab)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page,(Open in new tab)"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+                <a href="https://www.pinterest.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Pinterest  page,(Open in new tab)"><i
+                        class="fa-brands fa-pinterest-square"></i></a>
+            </li>
+
+
+        </ul>
+
+    </footer>
+
+
+    <!--font awesome script-->
+    <script src="https://kit.fontawesome.com/081f71bc5d.js" crossorigin="anonymous"></script>
 </body>
-
 </html>

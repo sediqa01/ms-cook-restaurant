@@ -343,7 +343,13 @@ footer h3 {
     border-radius: 4px;
     cursor: pointer;
   }
-  
+  #submit-f{
+      font-family:  'Merienda One', cursive;
+      justify-content: center;
+      text-align: center;
+      padding: 100px;
+      margin: 50px;
+  }
   input[type=submit]:hover {
 
     color: #000000;
@@ -352,7 +358,7 @@ footer h3 {
   .container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 80px;
+    padding: 100px 80px;
   }
 
 
