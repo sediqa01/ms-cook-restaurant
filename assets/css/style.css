@@ -24,6 +24,8 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
+    margin: 0;
+    padding: 0;
 }
 nav ul {
     background-color: #080707;
