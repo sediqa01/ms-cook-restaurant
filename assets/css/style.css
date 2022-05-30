@@ -29,25 +29,20 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
-
 }
 
 nav ul {
     background-color: #080707;
     padding: 0;
     margin: 0;
-}
-
-ul {
     font-size: 95%;
     letter-spacing: 2px;
     height: 60px;
 }
 
-ul li {
+ul#menu li {
     float: left;
     list-style-type: none;
-    /* line-height: 40px; */
     height: 40px;
     padding: 0;
 }
@@ -210,6 +205,7 @@ footer h3 {
     display: flex;
     justify-content: center;
     margin: 20px auto;
+    list-style-type: none;
 }
 
 .social-links ul li {
@@ -231,16 +227,17 @@ footer h3 {
     margin: 30px;
     display: flex;
     flex-direction: row-reverse;
+    justify-content: center;
 }
 
 .menu-list h2 {
-    text-align: center;
-    padding-right: 180px;
+    padding-left: 30px;
     margin-bottom: 23px;
 }
 
 .menu-list li {
     font-weight: bold;
+    font-size: 1.8rem;
 }
 
 .menu-item h1 {
@@ -250,30 +247,37 @@ footer h3 {
     word-spacing: 4px;
 }
 
-#breaky-menu {
-    width: 40%;
-    line-height: 20px;
-    padding: 90px 20px 30px;
-    margin: 30px 10px;
-}
-
-#breaky-menu ul {
+#breaky-menu ul,
+#lunch-menu ul,
+#dinner-menu ul {
+    padding: 10px 10px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
 }
 
-#breaky-menu li {
-    font-size: 17px;
+#breaky-menu,
+#lunch-menu,
+#dinner-menu {
+    width: 40%;
+    padding: 90px 20px 30px;
+    margin: 30px 10px;
+}
+
+#breaky-menu li,
+#lunch-menu li,
+#dinner-menu li {
     list-style-type: circle;
 }
 
-#container {
+.menu-container {
     width: 40%;
     height: 450px;
     margin-top: 35px;
     padding: 80px 60px 20px 40px;
 }
 
+/* breakfast menu */
 #img-breaky {
     height: 100%;
     background: url('../images/pexels-christopher-alonzo-588776.jpg');
@@ -282,26 +286,7 @@ footer h3 {
     background-size: cover;
 }
 
-/* luch menu */
-#lunch-menu {
-    width: 40%;
-    line-height: 20px;
-    padding: 90px 20px 30px;
-    margin: 30px 10px;
-}
-
-#lunch-menu ul {
-    padding: 10px 10px;
-    margin: 20px;
-    display: flex;
-    flex-direction: column;
-}
-
-#lunch-menu li {
-    font-size: 17px;
-    list-style-type: circle;
-}
-
+/* lunch menu */
 #img-lunch {
     height: 100%;
     background: url('../images/pexels-cottonbro-3298180.jpg');
@@ -311,24 +296,6 @@ footer h3 {
 }
 
 /* Dinner menu */
-#dinner-menu {
-    width: 40%;
-    line-height: 20px;
-    padding: 90px 20px 30px;
-    margin: 30px 10px;
-}
-
-#dinner-menu ul {
-    padding: 10px 10px;
-    margin: 20px;
-    flex-direction: column;
-}
-
-#dinner-menu li {
-    font-size: 17px;
-    list-style-type: circle;
-}
-
 #img-dinner {
     height: 100%;
     background: url('../images/pexels-jonathan-borba-3009323.jpg');
@@ -340,7 +307,6 @@ footer h3 {
 /* Form styling */
 #form-contact {
     padding-top: 180px;
-
 }
 
 input[type=text],
@@ -354,7 +320,6 @@ textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-
 }
 
 
@@ -376,7 +341,6 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-
     color: #000000;
 }
 
@@ -387,6 +351,11 @@ input[type=submit]:hover {
     overflow-x: hidden;
 }
 
+@media screen and (max-width: 1460px) {
+    .menu-list li {
+        font-size: 1.4rem;
+    }
+}
 
 @media screen and (max-width: 1024px) {
 
@@ -402,11 +371,28 @@ input[type=submit]:hover {
         width: auto;
         margin: 30px auto;
     }
+
+    .menu-list {
+        flex-direction: column-reverse;
+    }
+
+    #breaky-menu,
+    #lunch-menu,
+    #dinner-menu {
+        width: 100%;
+        padding: 0 20px;
+        margin: 20px 10px 0;
+    }
+
+    .menu-container {
+        width: auto;
+        padding: 10px 60px;
+    }
 }
 
 @media screen and (max-width:768px) {
 
-    ul {
+    #menu {
         height: auto;
         overflow: hidden;
     }
@@ -459,57 +445,22 @@ input[type=submit]:hover {
         margin-left: auto;
     }
 
-    .menu-list {
-        flex-direction: column-reverse;
-    }
-
-    #dinner-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 60px 20px 30px;
-        margin: 15px 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
-    #breaky-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 60px 20px 30px;
-        margin: 15px 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
     #container {
         width: 80%;
         margin-top: 35px;
         padding: 40px 30px 10px 20px;
     }
 
-    ul {
-        height: auto;
-        overflow: auto;
+    .menu-container {
+        padding: 10px 0;
     }
-
-    #lunch-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 60px 20px 30px;
-        margin: 15px 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
 }
 
 @media screen and (max-width:500px) {
+
+    #banner h1 {
+        padding: 180px 40px 0;
+    }
 
     #about,
     #chef {
@@ -532,43 +483,10 @@ input[type=submit]:hover {
         flex-direction: column;
     }
 
-    #breaky-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 90px 20px 30px;
-        margin: 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
     #container {
         width: 80%;
         margin-top: 35px;
         padding: 80px 60px 20px 40px;
-    }
-
-    #lunch-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 90px 20px 30px;
-        margin: 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-
-    #dinner-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 90px 20px 30px;
-        margin: 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
     }
 
     #contact {
@@ -585,12 +503,26 @@ input[type=submit]:hover {
     #address {
         margin-left: 0;
     }
+
+    #breaky-menu,
+    #lunch-menu,
+    #dinner-menu {
+        padding: 0;
+        margin: 20px 0 0;
+    }
+    
+    #breaky-menu li,
+    #lunch-menu li,
+    #dinner-menu li {
+        margin-bottom: 8px;
+        font-size: 1rem;
+    }
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
 
     #banner h1 {
-
+        padding: 180px 0 0;
         font-size: 1.5rem;
         justify-content: center;
         text-align: center;
@@ -598,5 +530,9 @@ input[type=submit]:hover {
 
     #bio {
         padding: 0;
+    }
+
+    .social-links a {
+        width: 45px;
     }
 }
