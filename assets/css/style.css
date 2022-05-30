@@ -328,10 +328,14 @@ footer h3 {
     }
 }
 @media screen and (max-width: 768px) {
+   
     ul {
+        height: auto;
         overflow: hidden;
     }
     ul a {
+        padding: 10px 5px;
+        justify-content: center;
         width: 66px;
         font-size: 10px;
     }
@@ -347,6 +351,48 @@ footer h3 {
         padding: 0;
     }
 }
+/* test */
+
+
+@media screen and (max-width: 768px) {
+   
+    ul {
+        height: auto;
+        overflow: hidden;
+    }
+    ul li {
+        padding: 10px 5px;
+        justify-content: center;
+    }
+    ul a {
+       
+        width: 66px;
+        font-size: 10px;
+    }
+    #banner {
+        height: 50vh;
+    }
+    #banner h1 {
+        padding-top: 180px;
+        font-size: 1.5rem;
+        justify-content: center;
+    }
+    #bio {
+        padding: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/*  */
 @media screen and (max-width:500px) {
     #about,
     #chef {
