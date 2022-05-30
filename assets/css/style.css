@@ -336,11 +336,11 @@ footer h3 {
         font-size: 10px;
     }
     #banner {
-        height: 60vh;
+        height: 50vh;
     }
     #banner h1 {
         padding-top: 180px;
-        font-size: 1rem;
+        font-size: 1.5rem;
         justify-content: center;
     }
     #bio {
@@ -351,6 +351,7 @@ footer h3 {
     #about,
     #chef {
         margin: 10px 20px;
+        font-size: 1rem;
     }
     #img-container {
         height: 200px;
@@ -361,4 +362,275 @@ footer h3 {
         width: 200px;
         margin: 0 auto;
     }
+}
+@media screen and (max-width:500px) {
+    #about,
+    #chef {
+        margin: 5px 15px;
+        font-size: 1rem;
+    }
+    #img-container {
+        height: 200px;
+        width: auto;
+    }
+    #img {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    #breaky-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 90px 20px 30px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container {
+        width: 80%;
+        margin-top: 35px;
+        padding: 80px 60px 20px 40px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .menu-list {
+        flex-direction: column-reverse;
+    }
+
+    #breaky-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 60px 20px 30px;
+        margin: 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container {
+        width: 80%;
+        margin-top: 35px;
+        padding: 40px 30px 10px 20px;
+    }
+
+    ul {
+        height: auto;
+        overflow: auto;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .menu-list {
+        flex-direction: column-reverse;
+    }
+
+    #lunch-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 60px 20px 30px;
+        margin: 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container-l {
+        width: 80%;
+        margin-top: 35px;
+        padding: 40px 30px 10px 20px;
+    }
+
+    ul {
+        height: auto;
+        overflow: auto;
+    }
+}
+@media screen and (max-width:500px) {
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    #lunch-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 90px 20px 30px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container-l {
+        width: 80%;
+        margin-top: 35px;
+        padding: 80px 60px 20px 40px;
+    }
+}
+
+@media screen and (max-width:500px) {
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    #breaky-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 90px 20px 30px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container {
+        width: 80%;
+        margin-top: 35px;
+        padding: 80px 60px 20px 40px;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .menu-list {
+        flex-direction: column-reverse;
+    }
+
+    #breaky-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 60px 20px 30px;
+        margin: 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container {
+        width: 80%;
+        margin-top: 35px;
+        padding: 40px 30px 10px 20px;
+    }
+
+    ul {
+        height: auto;
+        overflow: auto;
+    }
+}
+@media screen and (max-width:768px) {
+
+    .menu-list {
+        flex-direction: column-reverse;
+    }
+
+    #dinner-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 60px 20px 30px;
+        margin: 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container-d {
+        width: 80%;
+        margin-top: 35px;
+        padding: 40px 30px 10px 20px;
+    }
+
+    ul {
+        height: auto;
+        overflow: auto;
+    }
+}
+@media screen and (max-width:500px) {
+
+    .menu-list {
+        flex-direction: column;
+    }
+
+    #dinner-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 90px 20px 30px;
+        margin: 30px 10px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+    
+    #container-d {
+        width: 80%;
+        margin-top: 35px;
+        padding: 80px 60px 20px 40px;
+    }
+}
+@media screen and (max-width:500px) {
+
+        #contact{
+            height: fit-content;
+            display: flex;
+            flex-direction:column ;
+            width: 100%;
+            padding: 0 30px 40px ;
+        }
+        #hours{
+            width: 100%;
+            
+        }
+        #contact-info{
+            width: 100%;
+        }
+        #address{
+            width: 100%;
+        }
+        
+
+}
+@media screen and (max-width:768px) {
+
+    #contact{
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding-bottom: 30px;
+    }
+    #hours{
+        margin-left: 10px;
+        padding: 20px;
+        
+    }
+    #contact-info{
+        padding: 20px;
+    }
+    #address{
+        margin-right: 10px;
+        padding: 20px;
+    }
+    #h1{
+        font-size: 0.3rem;
+    }
+    
+
 }
