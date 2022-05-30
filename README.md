@@ -13,7 +13,7 @@ image of responsive goes here
  
    ### Navigation Bar
 
-   - Featured on all two pages, the full responsive navigation bar includes links to the  Home page, Menu page and Contact section and is identical in each page to allow for easy navigation.
+   - Featured on all three pages, the full responsive navigation bar includes links to the  Home page, Menu page and Contact page and is identical in each page to allow for easy navigation.
    - This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button.
 
 
@@ -58,19 +58,6 @@ image of responsive goes here
 
 ---
 
-
-  ### Contact Information 
-
-   **Open Hours** : This section helps users to scheduale their time and Breakfast ,Lunch and Dinner menue.
- 
-   **Address**  : This Will help user to find the exact address of restaurant with Map direction 
-  
-   **Contuct Number & Email** : Will encourages user to be connected through phone number or via Email.This section help user to contact the restuarant and order foods or reserve table.
-
-![Contact Info](./assets/readmeFolder/contact.PNG)
-
----
-
 ### The Footer 
 
 
@@ -111,6 +98,26 @@ image of responsive goes here
  ![Dinner](./assets/readmeFolder/dinner.PNG)
 
 ---
+ ### Contact page
+
+   ###Form
+
+  - the form section contents input element for name,  input element for last name, and drop down menue for choising country, text erea for leaving a message and submit button.
+  - This form allows users to share their questions, comments, feedbacks and any concern they may have with restuarant personels.
+
+  ![Form](./assets/readmeFolder/form.png)
+
+  
+
+   **Open Hours** : This section helps users to scheduale their time and Breakfast ,Lunch and Dinner menue.
+ 
+   **Address**  : This Will help user to find the exact address of restaurant with Map direction 
+  
+   **Contuct Number & Email** : Will encourages user to be connected through phone number or via Email.This section help user to contact the restuarant and order foods or reserve table.
+
+   
+
+   ---
 
 # Features Left to Implement
 
@@ -168,15 +175,15 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
  ## Content
    
-- The text for the Chef Information was taken from Wikipedia Article.
+- The text for the Chef Information was taken from [Wikipedia Article](https://en.wikipedia.org/wiki/Lynn_Crawford)
 - The text for the Breakfast Menu was taken from [Spoon Fork Bacon](https://www.spoonforkbacon.com) 
 - The text for the Lunch Menu was taken from [Insanely Good Recipes](https://insanelygoodrecipes.com)  
 - The text for the Dinner Menu was taken from [The Modern Proper](https://themodernproper.com) 
-- The icons in the footer were taken from Font Awesome.
+- The icons in the footer were taken from [Font Awesome](https://fontawesome.com/)
 
 
 ---
 ## Media
 
-- The photos used on the home (Hero Image) and Menu page are from Pexiel site.
+- The photos used on the home (Hero Image) and Menu page are from [Pexiel site](https://www.pexels.com/search/restaurant/)
 - The images used for the Chef of Restaurant were taken from this [site](https://images.app.goo.gl/eJPuNcvyDYJ5BuBXA) 

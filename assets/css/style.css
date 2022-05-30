@@ -1,25 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Merienda+One&family=Open+Sans:wght@300&display=swap');
+
 * {
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
 }
+
 body {
     font-family: 'Open Sans', sans-serif;
     font-weight: 500;
     background-color: #E6E2E1;
 }
+
 hr {
     border: 1px solid #BBB8B8;
-    margin: 30px;
-    width: 100%;
+    margin: 30px auto;
+    width: 93%;
 }
+
 h1,
 h2,
 h3 {
     font-family: 'Merienda One', cursive;
 }
+
 /* Navigation bar */
 nav {
     position: fixed;
@@ -27,41 +31,49 @@ nav {
     width: 100%;
 
 }
+
 nav ul {
     background-color: #080707;
     padding: 0;
     margin: 0;
 }
+
 ul {
     font-size: 95%;
     letter-spacing: 2px;
     height: 60px;
 }
+
 ul li {
     float: left;
     list-style-type: none;
-    line-height: 40px;
+    /* line-height: 40px; */
     height: 40px;
     padding: 0;
 }
+
 ul a {
     width: 120px;
     text-align: center;
     font-weight: 500;
     text-decoration: none;
     color: #fff;
-    padding: 10px;
+    padding: 25px 10px 10px;
+    line-height: 25px;
     font-size: 17px;
     display: block
 }
+
 nav a:hover {
     background-color: #B8B8B8;
     color: #000000;
 }
+
 .active {
     background-color: #DB0909;
     color: #FFFFFF;
 }
+
 /* Banner image */
 #banner {
     width: 100%;
@@ -71,15 +83,18 @@ nav a:hover {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 #banner h1 {
     color: #fff;
     font-size: 3rem;
     text-align: center;
     padding: 150px;
 }
+
 .text-center {
     text-align: center;
 }
+
 /* About section */
 #about {
     text-align: center;
@@ -90,12 +105,15 @@ nav a:hover {
     line-height: 30px;
     display: block;
 }
+
 #about h2 {
     margin-bottom: 23px;
 }
+
 #about p {
     text-align: justify;
 }
+
 #chef {
     padding: 20px;
     margin: 20px 70px;
@@ -104,6 +122,7 @@ nav a:hover {
     display: flex;
     flex-direction: row-reverse;
 }
+
 #bio {
     width: 50%;
     text-align: center;
@@ -112,92 +131,87 @@ nav a:hover {
     margin: 30px 30px 55px 40px;
     line-height: 30px;
 }
+
 #bio h2 {
     margin-bottom: 23px;
     padding-top: 20px;
 }
+
 #bio p {
     text-align: justify;
     padding: 15px 20px;
 }
+
 #img-container {
     width: 300px;
     height: 300px;
     margin: 50px 80px 15px;
     float: right;
 }
+
 #img {
     background: url('../images/Lynn-Crawford.jpg') no-repeat center center;
     height: 100%;
 }
+
 /* Contact Info */
 #contact {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 33px;
     height: 250px;
 }
+
 .bold {
     font-weight: bold;
 }
+
 .upper {
     text-transform: uppercase;
     margin: 10px;
 }
-#hours {
-    padding-top: 33px;
-    float: left;
-    width: 30%;
-}
-#hours h3 {
-    padding: 2px 40px;
-}
-#hours p {
-    padding: 0px 30px;
-}
-#contact-info {
-    padding-top: 33px;
-    float: right;
-    width: 30%;
-}
-#contact-info h3 {
-    padding: 2px 40px;
-}
-#contact-info p {
-    padding: 0px 30px;
-}
-#address {
-    padding-top: 33px;
-    width: 30%;
-    margin: 0 auto;
-}
+
+#hours h3,
+#contact-info h3,
 #address h3 {
     padding: 2px 40px;
 }
+
+#hours p,
+#contact-info p,
 #address p {
     padding: 0px 30px;
 }
+
 /* Map section */
 #map-wrapper {
     height: 300px;
     margin-bottom: 50px;
 }
+
 #map {
     height: 100%;
     width: 100%;
     border: none;
 }
+
 /* footer */
 footer {
     height: 60px;
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
 footer h3 {
     text-align: center;
 }
+
 .social-links {
     display: flex;
     justify-content: center;
     margin: 20px auto;
 }
+
 .social-links ul li {
     display: inline-block;
     width: 100px;
@@ -207,49 +221,59 @@ footer h3 {
     line-height: 100px;
     font-size: 120%;
 }
+
 .social-links i {
     color: #000000;
 }
+
 /* Menu */
 .menu-list {
     margin: 30px;
     display: flex;
     flex-direction: row-reverse;
 }
+
 .menu-list h2 {
     text-align: center;
     padding-right: 180px;
     margin-bottom: 23px;
 }
+
 .menu-list li {
     font-weight: bold;
 }
+
 .menu-item h1 {
     padding-top: 110px;
     text-align: center;
     font-size: 2rem;
     word-spacing: 4px;
 }
+
 #breaky-menu {
     width: 40%;
     line-height: 20px;
     padding: 90px 20px 30px;
     margin: 30px 10px;
 }
+
 #breaky-menu ul {
     display: flex;
     flex-direction: column;
 }
+
 #breaky-menu li {
     font-size: 17px;
     list-style-type: circle;
 }
+
 #container {
     width: 40%;
     height: 450px;
     margin-top: 35px;
     padding: 80px 60px 20px 40px;
 }
+
 #img-breaky {
     height: 100%;
     background: url('../images/pexels-christopher-alonzo-588776.jpg');
@@ -257,6 +281,7 @@ footer h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* luch menu */
 #lunch-menu {
     width: 40%;
@@ -264,22 +289,19 @@ footer h3 {
     padding: 90px 20px 30px;
     margin: 30px 10px;
 }
+
 #lunch-menu ul {
     padding: 10px 10px;
     margin: 20px;
     display: flex;
     flex-direction: column;
 }
+
 #lunch-menu li {
     font-size: 17px;
     list-style-type: circle;
 }
-#container-l {
-    width: 40%;
-    height: 450px;
-    margin-top: 35px;
-    padding: 80px 60px 20px 40px;
-}
+
 #img-lunch {
     height: 100%;
     background: url('../images/pexels-cottonbro-3298180.jpg');
@@ -287,6 +309,7 @@ footer h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* Dinner menu */
 #dinner-menu {
     width: 40%;
@@ -294,21 +317,18 @@ footer h3 {
     padding: 90px 20px 30px;
     margin: 30px 10px;
 }
+
 #dinner-menu ul {
     padding: 10px 10px;
     margin: 20px;
     flex-direction: column;
 }
+
 #dinner-menu li {
     font-size: 17px;
     list-style-type: circle;
 }
-#container-d {
-    width: 40%;
-    height: 450px;
-    margin-top: 35px;
-    padding: 80px 60px 20px 40px;
-}
+
 #img-dinner {
     height: 100%;
     background: url('../images/pexels-jonathan-borba-3009323.jpg');
@@ -317,163 +337,196 @@ footer h3 {
     background-size: cover;
 }
 
- /* Form styling */
- #form-contact{
-   padding-top: 180px; 
+/* Form styling */
+#form-contact {
+    padding-top: 180px;
 
- }
+}
 
- input[type=text], select, textarea {
-    width: 100%; 
-    padding: 12px; 
-    border: 1px solid #ccc; 
-    border-radius: 4px; 
-    box-sizing: border-box; 
-    margin-top: 6px; 
-    margin-bottom: 16px; 
-    resize: vertical 
-  }
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
 
-  
-  input[type=submit] {
+}
+
+
+input[type=submit] {
     background-color: #92461a;
     color: white;
     padding: 12px 20px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
-  }
-  #submit-f{
-      font-family:  'Merienda One', cursive;
-      justify-content: center;
-      text-align: center;
-      padding: 100px;
-      margin: 50px;
-  }
-  input[type=submit]:hover {
+}
+
+#submit-f {
+    font-family: 'Merienda One', cursive;
+    justify-content: center;
+    text-align: center;
+    padding: 100px;
+    margin: 50px;
+}
+
+input[type=submit]:hover {
 
     color: #000000;
-  }
+}
 
-  .container {
+.container {
     border-radius: 5px;
     background-color: #f2f2f2;
-    padding: 100px 80px;
-  }
+    padding: 80px 12%;
+    overflow-x: hidden;
+}
 
 
 @media screen and (max-width: 1024px) {
+
     #chef {
         flex-direction: column;
     }
+
     #img-container {
         margin: 50px auto 15px;
     }
+
     #bio {
         width: auto;
         margin: 30px auto;
     }
 }
-@media screen and (max-width: 768px) {
-   
+
+@media screen and (max-width:768px) {
+
     ul {
         height: auto;
         overflow: hidden;
     }
+
     ul a {
-        padding: 10px 5px;
+        padding: 10px 5px 5px;
         justify-content: center;
         width: 66px;
         font-size: 10px;
     }
+
     #banner {
         height: 50vh;
     }
+
     #banner h1 {
         padding-top: 180px;
         font-size: 1.5rem;
         justify-content: center;
+        text-align: center;
     }
+
+    #h1 {
+        font-size: 0.3rem;
+    }
+
     #bio {
         padding: 0;
     }
-}
-/* test */
 
+    #contact {
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 30px;
+    }
 
-@media screen and (max-width: 768px) {
-   
+    #hours {
+        padding: 20px;
+    }
+
+    #contact-info {
+        padding: 20px;
+        margin: 0 auto;
+    }
+
+    #address {
+        padding: 20px;
+        margin-left: auto;
+    }
+
+    .menu-list {
+        flex-direction: column-reverse;
+    }
+
+    #dinner-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 60px 20px 30px;
+        margin: 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #breaky-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 60px 20px 30px;
+        margin: 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+    }
+
+    #container {
+        width: 80%;
+        margin-top: 35px;
+        padding: 40px 30px 10px 20px;
+    }
+
     ul {
         height: auto;
-        overflow: hidden;
+        overflow: auto;
     }
-    ul li {
-        padding: 10px 5px;
+
+    #lunch-menu {
+        width: 80%;
+        line-height: 20px;
+        padding: 60px 20px 30px;
+        margin: 15px 5px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
         justify-content: center;
     }
-    ul a {
-       
-        width: 66px;
-        font-size: 10px;
-    }
-    #banner {
-        height: 50vh;
-    }
-    #banner h1 {
-        padding-top: 180px;
-        font-size: 1.5rem;
-        justify-content: center;
-    }
-    #bio {
-        padding: 0;
-    }
+
 }
 
-
-
-
-
-
-
-
-
-
-
-/*  */
 @media screen and (max-width:500px) {
+
     #about,
     #chef {
         margin: 10px 20px;
         font-size: 1rem;
     }
-    #img-container {
-        height: 200px;
-        width: auto;
-    }
-    #img {
-        height: 200px;
-        width: 200px;
-        margin: 0 auto;
-    }
-}
-@media screen and (max-width:500px) {
-    #about,
-    #chef {
-        margin: 5px 15px;
-        font-size: 1rem;
-    }
-    #img-container {
-        height: 200px;
-        width: auto;
-    }
-    #img {
-        height: 200px;
-        width: 200px;
-        margin: 0 auto;
-    }
-}
 
-@media screen and (max-width:500px) {
+    #img-container {
+        height: 200px;
+        width: auto;
+    }
+
+    #img {
+        height: 200px;
+        width: 200px;
+        margin: 0 auto;
+    }
 
     .menu-list {
         flex-direction: column;
@@ -489,73 +542,11 @@ footer h3 {
         align-content: center;
         justify-content: center;
     }
-    
+
     #container {
         width: 80%;
         margin-top: 35px;
         padding: 80px 60px 20px 40px;
-    }
-}
-@media screen and (max-width:768px) {
-
-    .menu-list {
-        flex-direction: column-reverse;
-    }
-
-    #breaky-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 60px 20px 30px;
-        margin: 15px 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-    
-    #container {
-        width: 80%;
-        margin-top: 35px;
-        padding: 40px 30px 10px 20px;
-    }
-
-    ul {
-        height: auto;
-        overflow: auto;
-    }
-}
-@media screen and (max-width:768px) {
-
-    .menu-list {
-        flex-direction: column-reverse;
-    }
-
-    #lunch-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 60px 20px 30px;
-        margin: 15px 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-    
-    #container-l {
-        width: 80%;
-        margin-top: 35px;
-        padding: 40px 30px 10px 20px;
-    }
-
-    ul {
-        height: auto;
-        overflow: auto;
-    }
-}
-@media screen and (max-width:500px) {
-
-    .menu-list {
-        flex-direction: column;
     }
 
     #lunch-menu {
@@ -568,98 +559,6 @@ footer h3 {
         align-content: center;
         justify-content: center;
     }
-    
-    #container-l {
-        width: 80%;
-        margin-top: 35px;
-        padding: 80px 60px 20px 40px;
-    }
-}
-
-@media screen and (max-width:500px) {
-
-    .menu-list {
-        flex-direction: column;
-    }
-
-    #breaky-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 90px 20px 30px;
-        margin: 30px 10px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-    
-    #container {
-        width: 80%;
-        margin-top: 35px;
-        padding: 80px 60px 20px 40px;
-    }
-}
-@media screen and (max-width:768px) {
-
-    .menu-list {
-        flex-direction: column-reverse;
-    }
-
-    #breaky-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 60px 20px 30px;
-        margin: 15px 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-    
-    #container {
-        width: 80%;
-        margin-top: 35px;
-        padding: 40px 30px 10px 20px;
-    }
-
-    ul {
-        height: auto;
-        overflow: auto;
-    }
-}
-@media screen and (max-width:768px) {
-
-    .menu-list {
-        flex-direction: column-reverse;
-    }
-
-    #dinner-menu {
-        width: 80%;
-        line-height: 20px;
-        padding: 60px 20px 30px;
-        margin: 15px 5px;
-        display: flex;
-        flex-direction: column;
-        align-content: center;
-        justify-content: center;
-    }
-    
-    #container-d {
-        width: 80%;
-        margin-top: 35px;
-        padding: 40px 30px 10px 20px;
-    }
-
-    ul {
-        height: auto;
-        overflow: auto;
-    }
-}
-@media screen and (max-width:500px) {
-
-    .menu-list {
-        flex-direction: column;
-    }
 
     #dinner-menu {
         width: 80%;
@@ -671,59 +570,33 @@ footer h3 {
         align-content: center;
         justify-content: center;
     }
-    
-    #container-d {
-        width: 80%;
-        margin-top: 35px;
-        padding: 80px 60px 20px 40px;
-    }
-}
-@media screen and (max-width:500px) {
 
-        #contact{
-            height: fit-content;
-            display: flex;
-            flex-direction:column ;
-            width: 100%;
-            padding: 0 30px 40px ;
-        }
-        #hours{
-            width: 100%;
-            
-        }
-        #contact-info{
-            width: 100%;
-        }
-        #address{
-            width: 100%;
-        }
-        
-
-}
-@media screen and (max-width:768px) {
-
-    #contact{
+    #contact {
         height: fit-content;
-        width: 100%;
         display: flex;
-        flex-direction: row;
-        padding-bottom: 30px;
+        flex-direction: column;
+        width: 100%;
     }
-    #hours{
-        margin-left: 10px;
-        padding: 20px;
-        
-    }
-    #contact-info{
-        padding: 20px;
-    }
-    #address{
-        margin-right: 10px;
-        padding: 20px;
-    }
-    #h1{
-        font-size: 0.3rem;
-    }
-    
 
+    #contact-info {
+        margin: 0;
+    }
+
+    #address {
+        margin-left: 0;
+    }
+}
+
+@media screen and (min-width: 320px) {
+
+    #banner h1 {
+
+        font-size: 1.5rem;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #bio {
+        padding: 0;
+    }
 }
