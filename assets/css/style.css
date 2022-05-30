@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Open Sans', sans-serif;
@@ -24,8 +25,7 @@ nav {
     position: fixed;
     z-index: 1;
     width: 100%;
-    margin: 0;
-    padding: 0;
+
 }
 nav ul {
     background-color: #080707;
@@ -85,7 +85,7 @@ nav a:hover {
     text-align: center;
     padding: 4% 10%;
     margin: 20px 70px;
-    border: 5px solid #B15723;
+    border: 5px solid #92461a;
     border-radius: 30px;
     line-height: 30px;
     display: block;
@@ -99,7 +99,7 @@ nav a:hover {
 #chef {
     padding: 20px;
     margin: 20px 70px;
-    border: 5px solid #B15723;
+    border: 5px solid #92461a;
     border-radius: 30px;
     display: flex;
     flex-direction: row-reverse;
@@ -316,7 +316,46 @@ footer h3 {
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* For medium screen sizes from 768px wide and down */
+
+ /* Form styling */
+ #form-contact{
+   padding-top: 180px; 
+
+ }
+
+ input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+
+  
+  input[type=submit] {
+    background-color: #92461a;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+
+    color: #000000;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 80px;
+  }
+
+
 @media screen and (max-width: 1024px) {
     #chef {
         flex-direction: column;
