@@ -3,7 +3,8 @@
 Ms.Cook Restaurant is a site that hopes to help people to find more information about Ms.Cook restaurant services.
 The site will be targeted toward all people who are at Toronto and looking for a way to socialise and enjoiy from their letuier times with their friends, families and colleques. Ms.Cook resuraunt will be a useful way to customer to preview the restuarant servies and facilities in advance.
 
-image of responsive goes here
+![Responsive](./assets/readmeFolder/responsive.PNG)
+
 
 
  # Features
@@ -45,6 +46,7 @@ image of responsive goes here
 ![About](./assets/readmeFolder/about.PNG)
 
 
+
 ---
 
  ### About The Chef of Restaurant
@@ -53,10 +55,12 @@ image of responsive goes here
    - This section introduces the chef of restuarant to the user.
    - This section promote the restuarant reputation by presenting the chef of restuarat's fame and capability.
 
+
 ![Chef Image](./assets/readmeFolder/chef.PNG)
 
 
 ---
+
 
 ### The Footer 
 
@@ -70,6 +74,7 @@ image of responsive goes here
 
 ---
 
+
  ### Menu page 
 
 
@@ -81,26 +86,33 @@ image of responsive goes here
 
  ---
 
+
  #### Breakfast Menu
 
  ![Breaky](./assets/readmeFolder/breaky.PNG)
 
+
 ---
+
 
  #### Lunch Menu
 
  ![Lunch](./assets/readmeFolder/lunch.PNG)
 
+
 ---
+
 
  #### Dinner Menu
 
  ![Dinner](./assets/readmeFolder/dinner.PNG)
 
 ---
- ### Contact page
 
-   ###Form
+
+ # Contact page
+
+   ## Form
 
   - the form section contents input element for name,  input element for last name, and drop down menue for choising country, text erea for leaving a message and submit button.
   - This form allows users to share their questions, comments, feedbacks and any concern they may have with restuarant personels.
@@ -131,14 +143,10 @@ I'd Like to develope this project , the feature I'll implement :\
 
 # Testing
 
-Testing Screenshots
-
-Responsive Screnshots
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
+- I tested that this page works in different browsers : Chrome , Firefox , Safari . 
+- I confirmed that this project is responsive , looks good and functions on all standard screen sizes using the devtools device toolbar .
+- I confirmed that the navigation , header , about , Menu  , and contact text are all readable and easy to understand . 
+- I have confirmed that the form works : requires entries in every field and the submit button works .
 
 ---
 
@@ -150,9 +158,25 @@ If this section grows too long, you may want to split it off into a separate fil
 
   **CSS**
    - No errors were found when passing through the official (Jigsaw) validator.
+  
+   **Accessibility**
+   - I confirmed that the colors and fonts chosen are easy to read and accessible by running it through lighthouse in DevTools.
 
+   ![testing](./assets/readmeFolder/testing.PNG)
 
 ---
+
+ # Bugs
+
+   ## Solved Bugs
+
+  - When I checked  my project for W3C HTML Validator & W3C CSS Validator (Jigsaw)  I discovered , have an extra Div on my Menu page. It didn't cause any errors, but was a stray end tag.
+    - I just removed that stray div tag.
+
+  - 
+
+  
+
 
 # Deployment
 
@@ -163,7 +187,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
  - Once the Main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
 
- The live link can be found here - Link to live preview
+ The live link can be found here - (Ms.Cook Restaurant)[https://sediqa01.github.io/ms-cook-restaurant/]
 
 ---
 
