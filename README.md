@@ -167,7 +167,7 @@ The site was deployed to GitHub pages. The steps to deploy are as follows:
 
 ---
 
- # Cridet
+ # Credit
 
    The credits section breack up into : Content and Media .
 
